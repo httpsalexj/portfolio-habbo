@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Construtora STAR - Marketing e Arquitetura</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="images/logo-star.png" alt="Logo Construtora STAR" class="logo">
+    <h1>Construtora STAR</h1>
+    <p>Marketing e Arquitetura • Construções no Habbo Hotel BR</p>
+
+    <a href="https://discord.gg/SEU_SERVIDOR" target="_blank" class="btn">
+        Entrar em contato
+    </a>
+</header>
+
+<main>
+    <section class="gallery">
+        <img src="images/habbo-01.png" onclick="openModal(this.src)">
+        <img src="images/habbo-02.png" onclick="openModal(this.src)">
+        <img src="images/habbo-03.png" onclick="openModal(this.src)">
+        <img src="images/habbo-04.png" onclick="openModal(this.src)">
+        <img src="images/habbo-05.png" onclick="openModal(this.src)">
+        <img src="images/habbo-06.png" onclick="openModal(this.src)">
+        <img src="images/habbo-07.png" onclick="openModal(this.src)">
+        <img src="images/habbo-08.png" onclick="openModal(this.src)">
+        <img src="images/habbo-09.png" onclick="openModal(this.src)">
+        <img src="images/habbo-10.png" onclick="openModal(this.src)">
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 • Construtora STAR - Marketing e Arquitetura</p>
+</footer>
+
+<!-- MODAL -->
+<div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
